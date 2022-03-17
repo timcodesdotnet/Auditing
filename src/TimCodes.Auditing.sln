@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimCodes.Auditing", "TimCodes.Auditing\TimCodes.Auditing.csproj", "{FA9441BA-B007-4225-9D85-5CA867718DDD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EBF03B56-FD40-4B09-BDC4-E8EEC94D5503}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{1006FCDF-D56E-4C7C-A578-04F809D2B27F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimCodes.Auditing.Web", "TimCodes.Auditing.Web\TimCodes.Auditing.Web.csproj", "{3F823B44-2415-4C51-8611-F2BD34AE6B5F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimCodes.Auditing.UnitTests", "..\tests\TimCodes.Auditing.UnitTests\TimCodes.Auditing.UnitTests.csproj", "{9D840AF9-87FF-477F-9A82-C37059A66A6F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimCodes.Auditing.Web.UnitTests", "..\tests\TimCodes.Auditing.Web.UnitTests\TimCodes.Auditing.Web.UnitTests.csproj", "{2C1226C4-D396-41CF-9AC6-382DD47DB237}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA9441BA-B007-4225-9D85-5CA867718DDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA9441BA-B007-4225-9D85-5CA867718DDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA9441BA-B007-4225-9D85-5CA867718DDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA9441BA-B007-4225-9D85-5CA867718DDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F823B44-2415-4C51-8611-F2BD34AE6B5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F823B44-2415-4C51-8611-F2BD34AE6B5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F823B44-2415-4C51-8611-F2BD34AE6B5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F823B44-2415-4C51-8611-F2BD34AE6B5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D840AF9-87FF-477F-9A82-C37059A66A6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D840AF9-87FF-477F-9A82-C37059A66A6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D840AF9-87FF-477F-9A82-C37059A66A6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D840AF9-87FF-477F-9A82-C37059A66A6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C1226C4-D396-41CF-9AC6-382DD47DB237}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C1226C4-D396-41CF-9AC6-382DD47DB237}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C1226C4-D396-41CF-9AC6-382DD47DB237}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C1226C4-D396-41CF-9AC6-382DD47DB237}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FA9441BA-B007-4225-9D85-5CA867718DDD} = {EBF03B56-FD40-4B09-BDC4-E8EEC94D5503}
+		{3F823B44-2415-4C51-8611-F2BD34AE6B5F} = {EBF03B56-FD40-4B09-BDC4-E8EEC94D5503}
+		{9D840AF9-87FF-477F-9A82-C37059A66A6F} = {1006FCDF-D56E-4C7C-A578-04F809D2B27F}
+		{2C1226C4-D396-41CF-9AC6-382DD47DB237} = {1006FCDF-D56E-4C7C-A578-04F809D2B27F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A67CF8C1-B281-4516-AB38-49F57BE46A95}
+	EndGlobalSection
+EndGlobal

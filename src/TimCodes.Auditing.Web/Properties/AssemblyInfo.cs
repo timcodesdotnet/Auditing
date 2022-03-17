@@ -1,0 +1,14 @@
+﻿global using TimCodes.Auditing.Redactors;
+global using Audit.Core;
+global using TimCodes.Auditing.Configuration;
+global using Microsoft.Extensions.DependencyInjection;
+global using TimCodes.Auditing.Web.Configuration;
+global using TimCodes.Auditing.Web.Filters;
+global using TimCodes.Auditing.Web.Redactors;
+global using Audit.WebApi;
+global using Audit.WebApi.ConfigurationApi;
+global using TimCodes.Auditing.Web.Attributes;
+global using TimCodes.Auditing.Extensions;
+global using TimCodes.Auditing.Web.Constants;
+global using Microsoft.AspNetCore.Mvc.Filters;
+global using TimCodes.Auditing.Constants;

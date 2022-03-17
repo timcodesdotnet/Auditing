@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<Authors>TimCodes.NET</Authors>
+		<Company>TimCodes.NET</Company>
+		<Description>Assists in auditing actions</Description>
+		<PackageProjectUrl>https://github.com/timcodesdotnet/auditing</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/timcodesdotnet/auditing</RepositoryUrl>
+		<PackageIcon>icon.jpg</PackageIcon>
+		<AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="..\icon.jpg">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="Audit.WebApi" Version="19.0.7" />
+	  <PackageReference Include="MinVer" Version="3.0.0">
+	    <PrivateAssets>all</PrivateAssets>
+	    <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+	  </PackageReference>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\TimCodes.Auditing\TimCodes.Auditing.csproj" />
+	</ItemGroup>
+
+</Project>
